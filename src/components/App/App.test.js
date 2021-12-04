@@ -39,7 +39,7 @@ describe('operations testing', () => {
        wrapper.find('#b').simulate('change', { target: { name: 'b', value: 3 }})
        wrapper.find('#o3').simulate('click')
        wrapper.find('#calculate').simulate('click')
-       expect(wrapper.find('#result').text()).toBe('Result:1')
+       expect(wrapper.find('#result').text()).toBe('Result:0')
     })
 
 })
